@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#calculatorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  border: 2px solid rgb(0, 0, 0);
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}

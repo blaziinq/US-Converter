@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USA Convert</title>
+
+    <!-------------------------------------------------------->
+    <!--Specifications + Dependencies (js, stylesheets, etc)-->
+    <!-------------------------------------------------------->
+
+    <!--js files-->
+    <script src="header_footer/change_header_footer.js"></script>
+    <script src="maths.js"></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!--
+      Specifications:
+      font-family: 'Bebas Neue', cursive;
+      font-family: 'Poppins', sans-serif;
+    -->
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="main_stylesheet.css" />
+    <link rel="stylesheet" href="header_footer/header_footer_stylesheet.css" />
+  </head>
+  <body>
+    <header id="header">
+      <noscript
+        style="
+          font-family: 'Poppins', sans-serif;
+          color: red;
+          text-align: center;
+          font-size: 50px;
+        "
+        >You need to enable javascript to run this website.</noscript
+      >
+      <!--This is edited in js to keep consistent.-->
+    </header>
+    <main>
+      <h1 class="title">Bananas</h1>
+      <p class="text">
+        Maybe this would be better as a measurement for a reddit thing? But
+        regardless, bananas. This assumes a banana is 13cm long.
+      </p>
+      <!--i dont even know how this works lol-->
+      <div id="calculatorContainer">
+        <form action="#" onsubmit="bananas(); return false" id="form">
+          <input type="text" id="textInput" /> bananas <br />
+          To
+          <select id="metric" name="metric" class="input">
+            <option value="m">Meters</option>
+            <option value="cm">Centimeters</option>
+            <option value="mm">Millimeters</option>
+            <option value="km">Kilometers</option>
+          </select>
+          <br />
+          <input type="submit" value="Work Out" class="input" />
+          <p class="text" id="answer"></p>
+        </form>
+      </div>
+      <ul>
+        <li class="text" style="color: red">
+          <strong
+            >We don't offer american -> imperial because... no. We only use the
+            metric system.</strong
+          >
+        </li>
+        <li class="text" style="color: red">
+          <strong
+            >We don't offer the conversion of metric -> american because we
+            don't need more people using washing machines to measure the
+            diameter of sinkholes.</strong
+          >
+        </li>
+      </ul>
+    </main>
+    <footer id="footer">
+      <noscript
+        style="
+          font-family: 'Poppins', sans-serif;
+          color: red;
+          text-align: center;
+          font-size: 50px;
+        "
+        >You need to enable javascript to run this website.</noscript
+      >
+      <!--Like the header, edited in js... to keep consistent.-->
+    </footer>
+  </body>
+</html>
